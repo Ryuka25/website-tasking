@@ -249,5 +249,61 @@
         </div>
       </div>
     </section>
+
+    <footer class="bg-indigo-800 text-white">
+      <div
+        class="max-w-6xl mx-auto px-7 py-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:justify-items-center7"
+      >
+        <div>
+          <h2 class="font-bold text-3xl">Tasking</h2>
+          <p class="my-4 text-slate-400">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam
+            doloremque itaque ad accusantium harum impedit eius modi illo.
+            Repellendus.
+          </p>
+          <div class="flex justify-start items-center gap-3">
+            <a
+              href="#"
+              class="w-12 h-12 bg-white text-black text-2xl rounded-xl flex justify-center items-center"
+            >
+              <Icon name="lucide:facebook" />
+            </a>
+            <a
+              href="#"
+              class="w-12 h-12 bg-white text-black text-2xl rounded-xl flex justify-center items-center"
+            >
+              <Icon name="lucide:linkedin" />
+            </a>
+            <a
+              href="#"
+              class="w-12 h-12 bg-white text-black text-2xl rounded-xl flex justify-center items-center"
+            >
+              <Icon name="lucide:twitter" />
+            </a>
+          </div>
+        </div>
+        <div class="text-slate-400 flex flex-col gap-3">
+          <h2 class="font-bold text-2xl text-white">About</h2>
+          <a href="#">About Us</a>
+          <a href="#">Features</a>
+          <a href="#">News & Articles</a>
+        </div>
+        <div class="text-slate-400 flex flex-col gap-3">
+          <h2 class="font-bold text-2xl text-white">Support Us</h2>
+          <a href="#">FAQs</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Support Center</a>
+          <a href="#">Security</a>
+        </div>
+        <div class="text-slate-400 flex flex-col gap-3">
+          <h2 class="font-bold text-2xl text-white">Partners</h2>
+          <a href="#">Our Partners</a>
+          <a href="#">Subscribe</a>
+        </div>
+      </div>
+      <p class="text-white p-5 text-center bg-indigo-900">
+        All rights reserved. @tasking.co
+      </p>
+    </footer>
   </div>
 </template>
