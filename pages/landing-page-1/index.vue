@@ -16,15 +16,17 @@
             <a
               href="#"
               class="bg-blue-700 transition-colors hover:bg-blue-800 text-white py-2 px-7 rounded-md block md:hidden"
-              >Sign up</a
             >
+              Sign up
+            </a>
           </li>
         </ul>
         <a
           href="#"
           class="bg-blue-700 transition-colors hover:bg-blue-800 text-white py-2 px-7 rounded-md hidden md:block"
-          >Sign up</a
         >
+          Sign up
+        </a>
         <button id="menu-btn" class="md:hidden">
           <Icon class="text-2xl" name="lucide:menu" />
         </button>
