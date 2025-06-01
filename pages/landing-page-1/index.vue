@@ -219,5 +219,35 @@
         </div>
       </div>
     </section>
+    <section class="bg-blue-50">
+      <div class="max-w-6xl mx-auto px-7 py-10">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-7 items-center mb-12">
+          <NuxtImg src="/assets/landing-page-1/img4.svg" />
+          <div>
+            <p class="text-blue-600 mb-4 text-lg">Download</p>
+            <h1 class="font-bold text-4xl">Download Tasking On Your Device</h1>
+            <p class="max-w-md my-6 text-gray-400">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              inventore, totam mollitia veniam dicta suscipit cumque vero
+              reiciendis architecto! Et!
+            </p>
+            <div class="flex justify-start items-center gap-4">
+              <a href="#">
+                <NuxtImg
+                  src="/assets/landing-page-1/app-store-button.png"
+                  class="h-12"
+                />
+              </a>
+              <a href="#">
+                <NuxtImg
+                  src="/assets/landing-page-1/playstore-button.png"
+                  class="h-12"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
