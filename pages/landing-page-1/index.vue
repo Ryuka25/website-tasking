@@ -59,5 +59,64 @@
         <NuxtImg src="/assets/landing-page-1/img1.svg" />
       </div>
     </header>
+
+    <section class="bg-blue-50 text-center">
+      <div class="max-w-6xl mx-auto px-7 py-10">
+        <div class="mb-14">
+          <p class="text-blue-600 text-lg">Features</p>
+          <h1 class="font-bold text-4xl">Our Special Features</h1>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div class="bg-white rounded-md py-6 px-2">
+            <div
+              class="bg-blue-200 text-blue-500 w-16 h-16 rounded-md mx-auto flex justify-center items-center text-3xl"
+            >
+              <Icon name="lucide:user" />
+            </div>
+            <h2 class="font-bold text-2xl my-3">User Friendly</h2>
+            <p class="max-w-md mx-auto text-gray-400">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam,
+              velit.
+            </p>
+          </div>
+          <div class="bg-white rounded-md text-center py-6 px-2">
+            <div
+              class="bg-blue-200 text-blue-500 w-16 h-16 rounded-md mx-auto flex justify-center items-center text-3xl"
+            >
+              <Icon name="lucide:shield" />
+            </div>
+            <h2 class="font-bold text-2xl my-3">Trusted</h2>
+            <p class="max-w-md mx-auto text-gray-400">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit,
+              deserunt?
+            </p>
+          </div>
+          <div class="bg-white rounded-md text-center py-6 px-2">
+            <div
+              class="bg-blue-200 text-blue-500 w-16 h-16 rounded-md mx-auto flex justify-center items-center text-3xl"
+            >
+              <Icon name="lucide:sticky-note" />
+            </div>
+            <h2 class="font-bold text-2xl my-3">Flexible</h2>
+            <p class="max-w-md mx-auto text-gray-400">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
+              officiis!
+            </p>
+          </div>
+          <div class="bg-white rounded-md text-center py-6 px-2">
+            <div
+              class="bg-blue-200 text-blue-500 w-16 h-16 rounded-md mx-auto flex justify-center items-center text-3xl"
+            >
+              <Icon name="lucide:percent" />
+            </div>
+            <h2 class="font-bold text-2xl my-3">100% Free</h2>
+            <p class="max-w-md mx-auto text-gray-400">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Eligendi, autem.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
