@@ -1,4 +1,22 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+onMounted(() => {
+  // Get elements for the mobile menu toggle
+  const menu = document.getElementById("navbar-menu");
+  const menuBtn = document.getElementById("menu-btn");
+
+  // Add click event to menu btn
+  menuBtn?.addEventListener("click", () => {
+    // Toggle opened menu height
+    if (menu) {
+      menu.classList.toggle("h-52");
+      // Toogle padding
+      menu.classList.toggle("py-6");
+      // Toogle closed menu height
+      menu.classList.toggle("h-0");
+    }
+  });
+});
+</script>
 <template>
   <div>
     <nav class="fixed w-full bg-white drop-shadow-md">
