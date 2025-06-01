@@ -40,6 +40,7 @@ const onDescriptionCopy = (e: Event, description: string) => {
               <p>{{ landingPage.description }}</p>
               <Icon
                 name="lucide:copy"
+                class="hover:text-slate-700"
                 @click="(e) => onDescriptionCopy(e, landingPage.description)"
               />
             </div>
