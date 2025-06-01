@@ -118,5 +118,54 @@
         </div>
       </div>
     </section>
+    <section class="bg-slate-50">
+      <div class="max-w-6xl mx-auto px-7 py-10">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-7 items-center mb-12">
+          <NuxtImg src="/assets/landing-page-1/img2.svg" />
+          <div>
+            <p class="text-blue-600 mb-4 text-lg">Superiority</p>
+            <h1 class="font-bold text-4xl">
+              Smart System &amp; Friendly Design
+            </h1>
+            <p class="max-w-md my-6 text-gray-400">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+              vero doloribus eius aspernatur dolorum rerum repellendus, qui modi
+              magni iusto!
+            </p>
+            <a
+              href="#"
+              class="bg-blue-700 hover:bg-blue-800 transition-colors text-white py-3 px-7 rounded-md mr-4 mt-1 inline-block text-lg"
+            >
+              Learn More
+            </a>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-7 items-center mt-12">
+          <div class="order-2 md:order-1">
+            <p class="text-blue-600 mb-4 text-lg">How it works</p>
+            <h1 class="font-bold text-4xl">
+              How It Works? <br />
+              We Have Three Options
+            </h1>
+            <p class="max-w-md my-6 text-gray-400">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Temporibus voluptatum repellat cum nostrum minima quam totam minus
+              magnam, exercitationem porro!
+            </p>
+            <a
+              href="#"
+              class="bg-blue-700 hover:bg-blue-800 transition-colors text-white py-3 px-7 rounded-md mr-4 mt-1 inline-block text-lg"
+            >
+              Learn More
+            </a>
+          </div>
+          <NuxtImg
+            src="/assets/landing-page-1/img3.svg"
+            class="order-1 md:order-2"
+          />
+        </div>
+      </div>
+    </section>
   </div>
 </template>
