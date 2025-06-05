@@ -4,5 +4,11 @@
     "description": "https://youtu.be/nmWSE3jo44I",
     "image": "/assets/landing-page-1/preview.jpg",
     "url": "/landing-page-1"
+  },
+  {
+    "title": "Landing Page 2",
+    "description": "",
+    "image": "/assets/landing-page-1/preview.jpg",
+    "url": "/landing-page-2"
   }
 ]
