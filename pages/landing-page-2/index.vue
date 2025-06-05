@@ -6,7 +6,8 @@
       <div
         class="h-24 w-full text-center flex justify-center items-center font-bold uppercase text-white"
       >
-        Navigation Bar
+        <Icon name="streamline-stickies-color:baby-cart-quality" />
+        <span class="ml-2"> Navigation Bar </span>
       </div>
     </div>
     <div class="h-screen">
