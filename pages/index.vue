@@ -36,7 +36,10 @@ const onDescriptionCopy = (e: Event, description: string) => {
             <div class="font-bold mt-4">
               {{ landingPage.title }}
             </div>
-            <div class="text-slate-400 text-sm flex items-center gap-2">
+            <div
+              v-if="landingPage.description"
+              class="text-slate-400 text-sm flex items-center gap-2"
+            >
               <p>{{ landingPage.description }}</p>
               <Icon
                 name="lucide:copy"
