@@ -26,7 +26,7 @@ const onDescriptionCopy = (e: Event, description: string) => {
       >
         Landing pages
       </h1>
-      <div class="w-4/5 gap-4 flex flex-row mt-8">
+      <div class="mt-8 w-full gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <div v-for="(landingPage, index) in landingPages" :key="index">
           <NuxtLink :href="landingPage.url">
             <NuxtImg
