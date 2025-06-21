@@ -24,7 +24,7 @@ onMounted(() => {
       <NuxtImg
         src="/assets/lading-page-2/bg.jpg"
         alt="Example Image"
-        class="h-full object-cover bg-black brightness-75"
+        class="h-full object-cover w-full brightness-75"
       />
     </div>
     <div class="w-full h-screen">
