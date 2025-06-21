@@ -10,5 +10,11 @@
     "description": "https://youtu.be/axQ7eN2oPu0",
     "image": "/assets/landing-page-1/preview.jpg",
     "url": "/landing-page-2"
+  },
+  {
+    "title": "Landing Page 3",
+    "description": "",
+    "image": "/assets/landing-page-1/preview.jpg",
+    "url": "/landing-page-3"
   }
 ]
