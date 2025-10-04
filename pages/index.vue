@@ -278,9 +278,55 @@ onMounted(() => {
           <a href="#">Subscribe</a>
         </div>
       </div>
-      <p class="text-white p-5 text-center bg-indigo-900">
-        All rights reserved. @tasking.co
-      </p>
+      <div class="text-white p-5 text-center bg-indigo-900">
+        <div class="flex flex-col items-center justify-between gap-4 p-6 lg:p-10 lg:px-20">
+          <ul class="flex items-center gap-4">
+            <li>
+              <NuxtLink to="https://www.linkedin.com/in/lovanirina-r" target="_blank" class="group h-12 w-12 p-2"
+                aria-label="Linkedin Contact">
+                <Icon name="ph:linkedin-logo-duotone" class="size-8 transform duration-200 group-hover:scale-110" />
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink to="https://x.com/lovanirina_r" target="_blank" class="group h-12 w-12 p-2"
+                aria-label="X Contact">
+                <Icon name="ph:x-logo-duotone" class="size-8 transform duration-200 group-hover:scale-110" />
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink to="mailto:contact.lovanirina@gmail.com" target="_blank" class="group h-12 w-12 p-2"
+                aria-label="Mail Contact">
+                <Icon name="ph:envelope-simple-duotone" class="size-8 transform duration-200 group-hover:scale-110" />
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink to="https://wa.me/+261388107179" target="_blank" class="group h-12 w-12 p-2"
+                aria-label="Whatsapp Contact">
+                <Icon name="ph:whatsapp-logo-duotone" class="size-8 transform duration-200 group-hover:scale-110" />
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink to="https://github.com/Ryuka25/" target="_blank" class="group h-12 w-12 p-2"
+                aria-label="Github Contact">
+                <Icon name="ph:github-logo-duotone" class="size-8 transform duration-200 group-hover:scale-110" />
+              </NuxtLink>
+            </li>
+          </ul>
+          <div class="flex flex-col items-center justify-between gap-2">
+            <div class="flex items-center gap-2">
+              <div class="text-xs">
+                Crafted with ❤️ by
+                <span class="font-semibold">
+                  Lovanirina R.
+                </span>
+              </div>
+            </div>
+            <div class="text-center text-xs">
+              © Copyright 2025 Antananarivo. All rights reserved.
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
   </div>
 </template>
